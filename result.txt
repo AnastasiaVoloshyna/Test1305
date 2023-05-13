@@ -1,0 +1,57 @@
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 6 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        result.txt ---ЩОЙНО СТВОРИЛА
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+______________________
+$ git branch
+* main
+  new_branch
+_____________________
+$ git log
+commit 92e4891ad44df8ce126cf6cc56b11ba49e4e9b75 (HEAD -> main)
+Merge: 3363ccf 8c7abc0
+Author: Anastasiia_Voloshyna <302nastya@gmail.com>
+Date:   Sat May 13 15:46:00 2023 +0300
+
+    Merge branch 'main' of https://github.com/AnastasiaVoloshyna/Test1305
+
+commit 8c7abc072f5e3b77b283933a982a77826974258d (origin/main, origin/HEAD)
+Author: Anastasiia Voloshyna <129201580+AnastasiaVoloshyna@users.noreply.github.com>
+Date:   Sat May 13 15:45:44 2023 +0300
+
+    Create index_2.html
+
+commit 3363ccfba33946fdf9408257cbbc3b732d937360
+Merge: cb94c41 5b2f926
+Author: Anastasiia_Voloshyna <302nastya@gmail.com>
+Date:   Sat May 13 15:41:41 2023 +0300
+
+    viricheno conalift
+
+commit cb94c413c72e29b5bb8ede6bb6ecc784ebf5c489
+Author: Anastasiia_Voloshyna <302nastya@gmail.com>
+:
+
+_________________________________
+$ git log --merges
+commit 92e4891ad44df8ce126cf6cc56b11ba49e4e9b75 (HEAD -> main)
+Merge: 3363ccf 8c7abc0
+Author: Anastasiia_Voloshyna <302nastya@gmail.com>
+Date:   Sat May 13 15:46:00 2023 +0300
+
+    Merge branch 'main' of https://github.com/AnastasiaVoloshyna/Test1305
+
+commit 3363ccfba33946fdf9408257cbbc3b732d937360
+Merge: cb94c41 5b2f926
+Author: Anastasiia_Voloshyna <302nastya@gmail.com>
+Date:   Sat May 13 15:41:41 2023 +0300
+
+    viricheno conalift
